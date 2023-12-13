@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("22330771", default=None, cast=int)
-API_HASH = config("5961c742f33534c68418694e08a776f7", default=None)
-BOT_TOKEN = config("6787784929:AAE44K3JCBDbT2JPa7ONqLA7AvZVRQytnLw", default=None)
-SESSION = config("BQCmRV-FqBnnDVRstZLrIZd41Eg5p0hYv2vKsfJz_Y8mOR35Q20_JHbyE6b1DNv3nJcRwzYMJIBCayV77n1Evg01LO-Uw7RbLit-bNXW5dsnF4-9eSFagAqoNdr0Sz5lc8y3XbkP0VjFY-TGJc7u2Zw2Ww6cuNGP5rslP02JZk71q1_Z0P7caN3nnABHJGVm1Gh-Vd9KjrMC2POj7-UdgOrAGZcGyKf5Mr-Ex8ZtPuWRX3Ai5SV0Z6uOuhhTr-UwFr9gs9Jpm5zp31ljiMks4FkFwK6gxj0YWfrXVdps1vYfxTERCePNsvHU8fOZ1uqvQDTQsskQcTVIIryFn8DYS-I1AAAAATaM_jsA", default=None)
-FORCESUB = config("tiktokviralbarue", default=None)
-AUTH = config("1281619082", default=None, cast=int)
+API_ID = 22330771
+API_HASH = "5961c742f33534c68418694e08a776f7"
+BOT_TOKEN = "6787784929:AAE44K3JCBDbT2JPa7ONqLA7AvZVRQytnLw"
+SESSION = "BQCmRV-FqBnnDVRstZLrIZd41Eg5p0hYv2vKsfJz_Y8mOR35Q20_JHbyE6b1DNv3nJcR>
+FORCESUB = "tiktokviralbarue"
+AUTH = 1281619082
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
